@@ -1,4 +1,5 @@
 .icon {
+  display: inline-block;
   height: 32px;
   width: 32px;
   background-image: url('../../../assets/images/loading.svg');
@@ -18,13 +19,21 @@
 }
 
 .icon.space {
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .icon.whatsapp {
   background-image: url('../../../assets/images/icon-whatsapp.svg');
 }
 
+.icon.location {
+  background-image: url('../../../assets/images/icon-location.svg');
+}
+
 .icon.linkedin {
   background-image: url('../../../assets/images/icon-linkedin.svg');
+}
+
+.icon.check {
+  background-image: url('../../../assets/images/icon-check.svg');
 }

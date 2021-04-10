@@ -111,15 +111,15 @@ class Home extends Component {
                   INNOVACION & DESARROLLO
                 </div>
                 <div className="hero-subtitle">
-                  Con casi dos decadas de experiencia trabajando para grandes 
-                  companias, ofrezo mis servicios de desarrollo de software 
-                  basandome en los mas alto estandares de calidad e impulsando 
-                  con innovacion en cada proyecto.
+                  Con casi dos decadas de experiencia trabajando para empresas 
+                  y grandes companias, ofrezo mis servicios de desarrollo de 
+                  software basandome en estandares de calidad y un interes 
+                  personal en aplicar innovacion en cada proyecto.
                 </div>
                 <div>
                   <a href='#signin' className="">
                     <Button className='primary large'>
-                      Conoce más
+                      <i className="icon check space"/> Conoce más
                     </Button>
                   </a>
                 </div>
@@ -147,12 +147,10 @@ class Home extends Component {
                   <Row className='center'>
                     <Col>
                       <Subtitle>
-                        Con mas de 18 anos de experiencia profesional he participado en desafios para pequenas 
-                        y grandes companias. Entre mis trabajos destacados desarrolle el sitio web GlogalLogic.com
-                         (compania IT valuada en €8.100m, con clientes como Samsung, Microsoft, Google, entre otros).
-                      </Subtitle>
-                      <Subtitle>
-                        Tambien he desarrollado apps para la compania Facebook. Entre otros desarrollos para 
+                        A lo largo de mi carrera profesional he participado en proyectos para pequeñas 
+                        y grandes compañías. Destacando el desarrollo del sitio web GlogalLogic.com
+                         (compañía IT valuada en €8.100m con clientes como Samsung, Microsoft, Google, entre otros).
+                        Y programación de Apps para la companía Facebook, entre otros desarrollos para 
                         startups de Silicon Valley, Suiza y Barcelona. 
                       </Subtitle>
                     </Col>
@@ -171,7 +169,9 @@ class Home extends Component {
                     <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                       <H2>Facebook</H2>
                       <p>
-                        A traves de una startup de california he desarrollado proyectos para la compania Facebook, he desarrollado UX, Visual Design, desarrollo de la app y puesta en marcha.
+                        He participado en la creación de Apps para esta compañía, 
+                        mi aporte cubría tareas de diseño de experiencia de usuario, 
+                        diseño visual, programación y puesta en marcha.
                       </p>
                     </div>
                   </Col>
@@ -185,7 +185,11 @@ class Home extends Component {
                   <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                     <H2>GlobalLogic</H2>
                     <p>
-                      Esta compania con sede en california que desarrolla productos para Samsung, Google, Microsoft, entre otros. Mi trabajo fue desarrollar y poner en marcha el sitio web de esta gran compania.
+                      Se trata de una companía con sede en california que 
+                      desarrolla productos para Samsung, Google, Microsoft, 
+                      entre otros. Actualmente vendida a Hitachi por una 
+                      suma de €8.100 millones. Fui convocado para desarrollar y 
+                      poner en marcha el sitio web de esta gran compañía. 
                     </p>
                   </div>
                 )}
@@ -205,7 +209,11 @@ class Home extends Component {
                   <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                     <H2>ShareSmartTV</H2>
                     <p>
-                    He creado un framework JavaScript para desarrollar sitios web TV-friendly. Convierte tu movil en un touchpad inteligente permitiendonos disfrutar de una mejor experiencia de usuario de websites en smart tvs.
+                      Ideé y desarrollé este framework JavaScript que permite a  
+                      developers crear sitios web TV-friendly. Esta herramienta 
+                      convierte tu móvil en un touchpad inteligente, permitiendonos 
+                      disfrutar de una mejor experiencia en el uso de 
+                      websites para smarttv.
                     </p>
                   </div>
                 )}
@@ -228,11 +236,7 @@ class Home extends Component {
                   <Row>
                     <Col>
                       <Subtitle>
-                        A través de un sencillo panel de control podrás 
-                        administrar la comunicación con tus clientes. 
-                        Encontrarás estas y otras herramientas que se 
-                        suman constantemente para mejorar la experiencia 
-                        del usuario.
+                        Soy desarrollador web proactivo, colaboro con equipos de desarrollo con innovacion e ideas propias que mejoran el desempeno general de una startup.
                       </Subtitle>
                     </Col>
                   </Row>
@@ -243,21 +247,21 @@ class Home extends Component {
           <Row>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='chat'
+                icon='check'
               >
-                Desarrollo de librerias UI
+                Desarrollo de Apps y Sitios
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='video-chat'
+                icon='check'
               >
-                Desarrollos de Frameworks
+                Desarrollos de Frameworks JS
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='booking'
+                icon='check'
               >
                 Metodologias de trabajo
               </BoxIcon>
@@ -266,238 +270,69 @@ class Home extends Component {
           <Row>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='statistics'
+                icon='check'
               >
-                Mejoras de atencion al cliente
+                Mejoras de atencion al cliente online
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='rating'
+                icon='check'
               >
                 Desarrollo UX Neurociencia
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='phone-book'
+                icon='check'
               >
-                Desarrollo de apps y websites
+                Desarrollo de UI Libraries
               </BoxIcon>
             </Col>
           </Row>
           <Row>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='balancer'
+                icon='check'
               >
-                Balanceador de llamadas
+                Creacion de Software Predesarrollado
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='referrer'
+                icon='check'
               >
-                URLs de Procedencia
+                Arquitectura de Sistemas
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
-                icon='follow'
+                icon='check'
               >
-                Seguimientos de atención
+                Optimización general de proyectos
               </BoxIcon>
             </Col>
           </Row>
         </Section>
-        <Section className="no-margin">
+        <Section className="no-margin dark">
           <Row className="fluid none-bottom">
             <Col>
               <i className='image-side-barcelona' />
             </Col>
-            <Col>
-              <Subtitle>
-                Whatsapp
-                +34 932 209092
-                C/Gomis 34 – 
-                08023 Barcelona
-              </Subtitle>
-            </Col>
-          </Row>
-        </Section>
-        <a id="signin" href='#no'> </a>
-        <Section className='dark center'>
-          <Row>
-            <Col>
-              <H1>Obtenlo Gratis</H1>
-              <p>
-                Se uno de los primeros en utilizar la plataforma, apuntate y te enviaremos el acceso a la brevedad.
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col className='d-flex justify-content-center'>
-              <div className='form-wrapper'>
-              {(subscriptionSent===false) ? (
-                <Form noValidate validated={validated} onSubmit={(event) => this.handleSubmit(event)}>
-                  <Form.Row>
-                    <Form.Group as={Col}>
-                      <Form.Label>Nombre</Form.Label>
-                      <Form.Control
-                        type='text'
-                        placeholder='Nombre'
-                        name='firstname'
-                        value={firstname}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group>
-                    <Form.Group as={Col}>
-                      <Form.Label>Apellido</Form.Label>
-                      <Form.Control
-                        type='text'
-                        placeholder='Apellido'
-                        name='lastname'
-                        value={lastname}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group>
-                  </Form.Row>
-                  <Form.Row>
-                    <Form.Group as={Col}>
-                      <Form.Label>Ciudad</Form.Label>
-                      <Form.Control
-                        type='text'
-                        placeholder='Ciudad'
-                        name='city'
-                        value={city}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group>
-                    <Form.Group as={Col}>
-                      <Form.Label>Código Postal</Form.Label>
-                      <Form.Control
-                        type='text'
-                        placeholder='Código Postal'
-                        name='zip_code'
-                        value={zip_code}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group>
-                  </Form.Row>
-                  <Form.Row>
-                    <Form.Group as={Col}>
-                      <Form.Label>Estado/Provincia</Form.Label>
-                      <Form.Control
-                        type='text'
-                        placeholder='Estado/Provincia'
-                        name='state'
-                        value={state}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group>
-                    <Form.Group controlId='state' as={Col}>
-                      <Form.Label>País</Form.Label>
-                      <Form.Control
-                        as='select'
-                        name='country'
-                        value={country}
-                        onChange={this.handleInputChange}
-                      >
-                        <option>Choose a country</option>
-                        {countries.map((country) => {
-                          return (
-                            <option key={country.code} value={country.name}>
-                              {country.name}
-                            </option>
-                          );
-                        })}
-                      </Form.Control>
-                    </Form.Group>
-                  </Form.Row>
-                  <Form.Row>
-                    <Form.Group as={Col}>
-                      <Form.Label>Email</Form.Label>
-                      <Form.Control
-                        type='email'
-                        placeholder='Email'
-                        name='email'
-                        value={email}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group> 
-                  </Form.Row>
-                  <Form.Row>
-                    <Form.Group as={Col}>
-                      <Form.Label>Repite tu email</Form.Label>
-                      <Form.Control
-                        type='email'
-                        placeholder='Email'
-                        name='repeat_email'
-                        value={repeat_email}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group> 
-                  </Form.Row>
-                  <Form.Row>
-                    <Form.Group as={Col}>
-                      <Form.Label>Password</Form.Label>
-                      <Form.Control
-                        type='password'
-                        placeholder='Password'
-                        name='password'
-                        value={password}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group>
-                    <Form.Group as={Col}>
-                      <Form.Label>Repite Password</Form.Label>
-                      <Form.Control
-                        type='password'
-                        placeholder='Password'
-                        name='repeat_password'
-                        value={repeat_password}
-                        required
-                        onChange={this.handleInputChange}
-                      />
-                    </Form.Group>
-                  </Form.Row>
-                  <Form.Row>
-                    <Form.Group as={Row}>
-                      <Col>
-                        <div className='check-terms'>
-                        <Form.Check
-                          type="checkbox"
-                          label="Aceptar Términos y condiciones"
-                          value="true"
-                          name="terms"
-                          required
-                          onChange={(event) => this.handleInputChange(event)}
-                        />
-                        </div>
-                      </Col>
-                    </Form.Group>
-                  </Form.Row>
-                  <div className='d-flex justify-content-end'>
-                    <Button className='primary large' type='submit'>Registrarme</Button>
-                  </div>
-                </Form>
-              ) : (
-                <div>
-                  <Alert variant='success'>Tu cuenta se ha creado correctamente. En menos de 48hs estaremos enviando el acceso a tu panel de control. Muchas gracias!</Alert>
+            <Col className="center-middle">
+              <div className="contact-wrapper">
+                <h1>Contáctame</h1>
+                <div className="item">
+                  <i className="icon whatsapp space"/> Whatsapp: +34 932 209092
                 </div>
-              )}
+                <div className="item">
+                  <i className="icon location space"/> Calle Gomis 34 (08023) Barcelona
+                </div>
               </div>
             </Col>
           </Row>
         </Section>
+        <a id="signin" href='#no'> </a>
       </Container>
     );
   }

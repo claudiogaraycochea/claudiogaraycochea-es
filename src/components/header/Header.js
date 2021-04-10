@@ -27,15 +27,7 @@ class Header extends Component {
     return (
       <header className={!(scrollTop>0) ? 'top': ''}>
         <div className='nav-logo'/>
-        {(user.id) ? (
-          <Link to='/log-out' className='btn-login'>
-            Cerrar sesión
-          </Link>
-        ) : (
-          <Link to='/login' className='btn-login'>
-            Iniciar sesión
-          </Link>
-        )}
+        <a href="/cat/">Català</a>
       </header>
     );    
   }
