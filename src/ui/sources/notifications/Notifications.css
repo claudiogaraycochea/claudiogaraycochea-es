@@ -1,0 +1,22 @@
+.notifications {
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: #c7e5ff;
+  color: #1b5e8e;
+}
+
+.notifications.success {
+  background-color: #dff0d8;
+  color: #389438;
+}
+
+.notifications.warning {
+  background-color: #fff9b4;
+  color: #9e7137;
+}
+
+.notifications.error {
+  background-color: #ffcece;
+  color: #b74d4d;
+}

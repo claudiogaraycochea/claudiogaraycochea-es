@@ -1,0 +1,55 @@
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 42px !important;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.subtitle {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.text-highlight {
+  color: #A500FF !important;
+}
+
+.text-medium {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 46px !important;
+  }
+
+  .h2 {
+    font-size: 38px !important;
+  }
+  
+  .h3 {
+    font-size: 26px !important;
+  }
+  
+  .subtitle {
+    font-size: 26px;
+  }
+}
