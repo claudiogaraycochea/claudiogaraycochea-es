@@ -27,7 +27,7 @@ class Home extends Component {
               <div className="content">
                 <div className="hero-title">
                   INNOVACION & DESARROLLO
-                </div>
+                </div><div>h0la</div>
                 <div className="hero-subtitle">
                   Con casi dos décadas de experiencia trabajando para empresas 
                   y grandes compañías, ofrezco mis servicios de desarrollo de 

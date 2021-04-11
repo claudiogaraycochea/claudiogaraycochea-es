@@ -12,6 +12,10 @@
   display: none;
 }
 
+.hero-wrapper .smaller {
+  font-size: 20px;
+}
+
 [class^="image-customer"],
 [class*=" image-customer"] {
   display: block;
@@ -112,6 +116,10 @@
   .customer-content {
     text-align: left;
     padding: 40px;
+  }
+
+  .hero-wrapper .smaller {
+    font-size: 60px;
   }
 
 }

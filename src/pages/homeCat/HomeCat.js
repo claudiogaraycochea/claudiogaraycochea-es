@@ -25,8 +25,8 @@ class Home extends Component {
           <Row>
             <Col xs={{ span: 12, order: 2 }} md={{ span: 7, order: 1 }} className='center-middle'>
               <div className="content">
-                <div className="hero-title text-break">
-                  INNOVACIÓ & DESENVOLUPAMENT
+                <div className="hero-title">
+                  INNOVACIÓ & <span className="smaller">DESENVOLUPAMENT</span>
                 </div>
                 <div className="hero-subtitle">
                   Amb gairebé dues dècades d'experiència treballant per a empreses i grans companyies, 
