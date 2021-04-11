@@ -6,7 +6,7 @@ import {
   H1, H2, Subtitle,
 } from '../../ui/UI';
 import { Container, Row, Col } from 'react-bootstrap';
-import './Home.css';
+import './HomeCat.css';
 import VisibilitySensor from "react-visibility-sensor";
 
 class Home extends Component {
@@ -25,19 +25,18 @@ class Home extends Component {
           <Row>
             <Col xs={{ span: 12, order: 2 }} md={{ span: 7, order: 1 }} className='center-middle'>
               <div className="content">
-                <div className="hero-title">
-                  INNOVACION & DESARROLLO
+                <div className="hero-title text-break">
+                  INNOVACIÓ & DESENVOLUPAMENT
                 </div>
                 <div className="hero-subtitle">
-                  Con casi dos décadas de experiencia trabajando para empresas 
-                  y grandes compañías, ofrezco mis servicios de desarrollo de 
-                  software basándome en estandares de calidad y un interés 
-                  personal en aplicar innovación en cada proyecto.
+                  Amb gairebé dues dècades d'experiència treballant per a empreses i grans companyies, 
+                  ofereixo els meus serveis de desenvolupament de programari basant-me en estàndards 
+                  de qualitat i un interès personal en aplicar innovació en cada projecte.
                 </div>
                 <div className="btn-home">
                   <a href='#signin' className="">
                     <Button className='primary large'>
-                      <i className="icon check space"/>Conoce más
+                      <i className="icon check space"/>Coneix més
                     </Button>
                   </a>
                 </div>
@@ -54,7 +53,7 @@ class Home extends Component {
                 <div className={isVisible ? "slideUp enter" : "slideUp"}>
                   <Row className='center'>
                     <Col>
-                      <H1>Acerca de mi</H1>
+                      <H1>Sobre la meva</H1>
                     </Col>
                   </Row>
                 </div>
@@ -62,10 +61,11 @@ class Home extends Component {
                   <Row className='center'>
                     <Col>
                       <Subtitle>
-                        A lo largo de mi carrera profesional he participado en proyectos para pequeñas 
-                        y grandes compañías. Destacando el desarrollo del sitio web GlogalLogic.com.
-                        Y programación de Apps para la companía Facebook, entre otros desarrollos para 
-                        startups de Silicon Valley, Suiza y Barcelona.
+                        Al llarg de la meva carrera professional he participat en 
+                        projectes per a petites i grans companyies. Destacant el 
+                        desenvolupament del lloc web GlogalLogic.com. I programació 
+                        d'Apps per a la companía Facebook, entre d'altres desenvolupaments 
+                        per startups de Silicon Valley, Suïssa i Barcelona.
                       </Subtitle>
                     </Col>
                   </Row>
@@ -83,9 +83,9 @@ class Home extends Component {
                     <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                       <H2>Facebook</H2>
                       <p>
-                        He participado en la creación de Apps para esta compañía, 
-                        mi aporte, cubría tareas de diseño de experiencia de usuario, 
-                        diseño visual, programación y puesta en marcha.
+                        He participat en la creació d'Apps per a aquesta companyia, la 
+                        meva aportació, cobria tasques de disseny d'experiència d'usuari, 
+                        disseny visual, programació i posada en marxa.
                       </p>
                     </div>
                   </Col>
@@ -99,11 +99,10 @@ class Home extends Component {
                   <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                     <H2>GlobalLogic</H2>
                     <p>
-                      Se trata de una companía con sede en California que 
-                      desarrolla productos para Samsung, Google, Microsoft, 
-                      entre otros. Actualmente vendida a Hitachi por una 
-                      suma de €8.100 millones. Fuí convocado para desarrollar y 
-                      poner en marcha el sitio web de esta gran compañía. 
+                      Es tracta d'una companía amb seu a Califòrnia que desenvolupa productes 
+                      per Samsung, Google, Microsoft, entre d'altres. Actualment venuda a 
+                      Hitachi per una suma de € 8.100 milions. Vaig anar convocat per 
+                      desenvolupar i posar en marxa el lloc web d'aquesta gran companyia. 
                     </p>
                   </div>
                 )}
@@ -123,11 +122,10 @@ class Home extends Component {
                   <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                     <H2>ShareSmartTV</H2>
                     <p>
-                      Ideé y desarrollé éste framework JavaScript que permite a  
-                      developers crear sitios web TV-friendly. Esta herramienta 
-                      convierte nuestro móvil en un touchpad inteligente, permitiéndonos 
-                      disfrutar de una mejor experiencia en el uso de 
-                      websites para smarttv.
+                      Vaig idear i desenvolupar aquest framework JavaScript que permet als 
+                      developers crear llocs web TV-friendly. Aquesta eina converteix el 
+                      nostre mòbil en un ratolí tàctil intel·ligent, permetent-nos gaudir 
+                      d'una millor experiència en l'ús de llocs web per a Smart TV.
                     </p>
                   </div>
                 )}
@@ -142,7 +140,7 @@ class Home extends Component {
                 <div className={isVisible ? "slideUp enter" : "slideUp"}>
                   <Row>
                     <Col>
-                      <H1>Mis servicios</H1>
+                      <H1>Posa serveis</H1>
                     </Col>
                   </Row>
                 </div>
@@ -150,10 +148,10 @@ class Home extends Component {
                   <Row>
                     <Col>
                       <Subtitle>
-                        Me caracterizo por ser desarrollador web pro-activo, colaboro 
-                        con equipos de desarrollo de startups y grande empresas, 
-                        aplicando un toque personal enfocado a innovación. Entre 
-                        mis tareas podemos encontrar...
+                        Em caracteritzo per ser desenvolupador web pro-actiu, 
+                        col·laborant amb equips de desenvolupament d’empreses 
+                        i grans empreses, aplicant un enfocament personal a la 
+                        innovació. Entre mis tareas podem trobar ...
                       </Subtitle>
                     </Col>
                   </Row>
@@ -166,21 +164,21 @@ class Home extends Component {
               <BoxIcon
                 icon='check'
               >
-                Desarrollo de Apps y Sitios Web
+                Desenvolupament d'aplicacions i llocs web
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Creación de Frameworks JS
+                Creació de JS Frameworks
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Metodologías de trabajo
+                Metodologies de treball
               </BoxIcon>
             </Col>
           </Row>
@@ -196,14 +194,14 @@ class Home extends Component {
               <BoxIcon
                 icon='check'
               >
-                Diseño UX Neurociencia
+                Disseny UX Neurociència
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Desarrollo de UI Libraries
+                Desenvolupament de UI Libraries
               </BoxIcon>
             </Col>
           </Row>
@@ -212,21 +210,21 @@ class Home extends Component {
               <BoxIcon
                 icon='check'
               >
-                Desarrollo de Soft. Pre-Programado
+                Desenvolupament de Soft. Preprogramat
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Lider Técnico de proyectos
+                Optimització general de projectes
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Optimización general de proyectos
+                Lider Tècnic de projectes
               </BoxIcon>
             </Col>
           </Row>
@@ -240,12 +238,12 @@ class Home extends Component {
             </Col>
             <Col sx='12' lg='6' className="center-middle">
               <div className="contact-wrapper">
-                <h1>Contáctame</h1>
+                <h1>Contacte</h1>
                 <div className="item">
                   <i className="icon whatsapp space"/> Whatsapp: +34 932 209092
                 </div>
                 <div className="item">
-                  <i className="icon location space"/> Calle Gomis 34 (08023) Barcelona
+                  <i className="icon location space"/> C/Gomis 34 – 08023 Barcelona
                 </div>
               </div>
             </Col>

@@ -22,12 +22,14 @@ class Header extends Component {
   }
 
   render() {
-    const { user } = this.state;
     const scrollTop = 0;
     return (
       <header className={!(scrollTop>0) ? 'top': ''}>
         <div className='nav-logo'/>
-        <a href="/cat/">Català</a>
+        <div className="nav-language">
+          <Link to="/">Castellano</Link>
+          <Link to="/cat">Català</Link>
+        </div>
       </header>
     );    
   }

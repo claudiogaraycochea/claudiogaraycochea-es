@@ -57,7 +57,6 @@ body, html, .main-app, .app, #root {
   background-image: url('../assets/images/bg-hero-home.svg');
   background-position: bottom;
   background-repeat: no-repeat;
-	background-size: contain;
 	margin-left: -15px;
 	margin-right: -15px;
 	padding-top: 0;
@@ -67,7 +66,7 @@ body, html, .main-app, .app, #root {
 .hero-wrapper .hero-title {
 	color: #ffffff;
 	font-family: 'Poppins', sans-serif;
-	font-size: 66px;
+	font-size: 40px;
 	font-weight: bold;
 	line-height: 1.2;
 	margin-bottom: 20px;
@@ -80,6 +79,8 @@ body, html, .main-app, .app, #root {
 	font-size: 22px;
 	line-height: 140%;
 	margin-bottom: 20px;
+
+
 }
 
 .hero-wrapper .subtitle-small {
@@ -95,6 +96,11 @@ body, html, .main-app, .app, #root {
 
 .hero-wrapper a {
 	width: fit-content;
+}
+
+.hero-wrapper .btn-home {
+	display: flex;
+	justify-content: center;	
 }
 
 .main-wrapper { 
@@ -394,10 +400,11 @@ pre {
 	.hero-wrapper {
 		margin-left: -15px;
 		margin-right: -15px;
+		background-size: contain;
 	}
 
 	.hero-wrapper .hero-title {
-		font-size: 86px;
+		font-size: 80px;
 		margin-bottom: 40px;
 	}
 	
@@ -418,6 +425,11 @@ pre {
 
   .hero-wrapper .row {
 		margin-bottom: 0;
+	}
+
+	.hero-wrapper .btn-home {
+		display: flex;
+		justify-content: left;
 	}
 
 	.center-middle {

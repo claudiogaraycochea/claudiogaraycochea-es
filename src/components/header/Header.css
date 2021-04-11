@@ -8,7 +8,6 @@ header {
   align-items: center;
   padding: 0 20px;
   font-size: 14px;
-  font-weight: bold;
   z-index: 1000;
   background-color: #0F8DFF;
   justify-content: space-between;
@@ -35,4 +34,12 @@ header {
 
 header a {
   color: #ffffff;
+}
+
+.nav-language {
+  display: flex;
+}
+
+.nav-language a {
+  margin-left: 20px;
 }

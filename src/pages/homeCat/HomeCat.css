@@ -80,6 +80,10 @@
   font-size: 28px;
 }
 
+.hero-wrapper .text-break {
+  word-break: break-all;
+}
+
 @media (min-width: 768px) {
 
   .image-step-1, .image-step-2, .image-step-3 {
