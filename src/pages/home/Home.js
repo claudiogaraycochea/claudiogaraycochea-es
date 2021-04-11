@@ -148,8 +148,7 @@ class Home extends Component {
                     <Col>
                       <Subtitle>
                         A lo largo de mi carrera profesional he participado en proyectos para pequeñas 
-                        y grandes compañías. Destacando el desarrollo del sitio web GlogalLogic.com
-                         (compañía IT valuada en €8.100m con clientes como Samsung, Microsoft, Google, entre otros).
+                        y grandes compañías. Destacando el desarrollo del sitio web GlogalLogic.com.
                         Y programación de Apps para la companía Facebook, entre otros desarrollos para 
                         startups de Silicon Valley, Suiza y Barcelona. 
                       </Subtitle>
@@ -185,7 +184,7 @@ class Home extends Component {
                   <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                     <H2>GlobalLogic</H2>
                     <p>
-                      Se trata de una companía con sede en california que 
+                      Se trata de una companía con sede en California que 
                       desarrolla productos para Samsung, Google, Microsoft, 
                       entre otros. Actualmente vendida a Hitachi por una 
                       suma de €8.100 millones. Fui convocado para desarrollar y 
@@ -211,7 +210,7 @@ class Home extends Component {
                     <p>
                       Ideé y desarrollé este framework JavaScript que permite a  
                       developers crear sitios web TV-friendly. Esta herramienta 
-                      convierte tu móvil en un touchpad inteligente, permitiendonos 
+                      convierte nuestro móvil en un touchpad inteligente, permitiendonos 
                       disfrutar de una mejor experiencia en el uso de 
                       websites para smarttv.
                     </p>
@@ -236,7 +235,7 @@ class Home extends Component {
                   <Row>
                     <Col>
                       <Subtitle>
-                        Soy desarrollador web proactivo, colaboro con equipos de desarrollo con innovacion e ideas propias que mejoran el desempeno general de una startup.
+                        Me caracterizo por ser desarrollador web pro-activo, colaboro con equipos de desarrollo de startups y grande empresas, aplicando un toque personal enfocado a innovación. Entre mis tareas podemos encontrar...
                       </Subtitle>
                     </Col>
                   </Row>
@@ -249,21 +248,21 @@ class Home extends Component {
               <BoxIcon
                 icon='check'
               >
-                Desarrollo de Apps y Sitios
+                Desarrollo de Apps y Sitios Web
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Desarrollos de Frameworks JS
+                Creación de Frameworks JS
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Metodologias de trabajo
+                Metodologías de trabajo
               </BoxIcon>
             </Col>
           </Row>
@@ -272,14 +271,14 @@ class Home extends Component {
               <BoxIcon
                 icon='check'
               >
-                Mejoras de atencion al cliente online
+                Venta corporativa
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Desarrollo UX Neurociencia
+                Diseño UX Neurociencia
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
@@ -295,14 +294,14 @@ class Home extends Component {
               <BoxIcon
                 icon='check'
               >
-                Creacion de Software Predesarrollado
+                Desarrollo de Soft. Pre-Programado
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
               <BoxIcon
                 icon='check'
               >
-                Arquitectura de Sistemas
+                Lider Técnico de proyectos
               </BoxIcon>
             </Col>
             <Col sx='12' lg='4'>
