@@ -14,7 +14,7 @@ NeoAssimilation UI - User Interface Design
 
 */
 
-import { Container, Section, Row, Col, Box, BoxCircle, BoxIcon } from './sources/containers/Containers';
+import { Container, Section, Row, Col, Box, BoxCircle, BoxIcon, Cookies } from './sources/containers/Containers';
 import { Button } from './sources/buttons/Buttons';
 import { Input } from './sources/inputs/Inputs';
 import { H1, H2, H3, Subtitle } from './sources/texts/Texts';
@@ -32,6 +32,7 @@ export {
   Box,
   BoxCircle,
   BoxIcon,
+  Cookies,
   Button,
   Input,
   H1,

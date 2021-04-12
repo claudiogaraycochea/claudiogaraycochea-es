@@ -119,3 +119,14 @@ export const BoxIcon = (props) => {
     </div>
   );
 };
+
+export const Cookies = (props) => {
+  const { children } = props;
+  return (
+    <div
+      className='cookies-wrapper'
+    >
+      {children}
+    </div>
+  );
+};
