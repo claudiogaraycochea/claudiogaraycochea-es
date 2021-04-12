@@ -9,15 +9,20 @@ import {
 import { Container, Row, Col, Form, Alert } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import VisibilitySensor from "react-visibility-sensor";
+import { db } from '../../store/firestore/Firestore';
 
 export default function Home() {
   const [cookies_active, setCookiesActive] = useState(localStorage.getItem('cookies'));
   const [contact_sent, setContactSent] = useState(false);
   const [validated, setValidated] = useState();
 
+
   const initialStateValues = {
     firstname: '',
-    lastname: ''
+    lastname: '',
+    email: '',
+    telephone: '',
+    message: ''
   };
 
   const [values, setValues] = useState(initialStateValues);
@@ -32,13 +37,22 @@ export default function Home() {
     setValues({...values, [name] : value})
   }
 
-  const handleCreateSubmit = async (e) => {
+  const handleCreateSubmit = (e) => {
     e.preventDefault();
+    const form = e.currentTarget;
+		if (form.checkValidity() === false) {
+			setValidated(true);
+		} else {
+			sendMessage();
+		}
+  }
+
+  const sendMessage = async () => {
     console.log('values: ', values);
-    /* await db.collection('users').doc().set(values);
+    await db.collection('users').doc().set(values);
     console.log('new user added');
     setValues({...initialStateValues});
-    */
+    setContactSent(true);
   }
 
   return (
@@ -271,9 +285,10 @@ export default function Home() {
                 <i className="icon location space"/> Calle Gomis 34 (08023) Barcelona
               </div>
               <div className="item">
-
+                <i className="icon email space"/>Email:
+              </div>
+              <div className="item">
               <div className='form-wrapper'>
-                <i className="icon whatsapp space"/>Email:
               {(!contact_sent) ? (
                 <Form noValidate validated={validated} onSubmit={handleCreateSubmit}>
                   <Form.Row>
@@ -284,6 +299,7 @@ export default function Home() {
                         name='firstname'
                         onChange={handleInputChange} 
                         value={values.firstname}
+                        required
                       />
                     </Form.Group>
                     <Form.Group as={Col}>
@@ -293,6 +309,7 @@ export default function Home() {
                         name='lastname'
                         onChange={handleInputChange} 
                         value={values.lastname}
+                        required
                       />
                     </Form.Group>
                   </Form.Row>
@@ -304,6 +321,7 @@ export default function Home() {
                         name='email'
                         onChange={handleInputChange} 
                         value={values.email}
+                        required
                       />
                     </Form.Group> 
                   </Form.Row>
@@ -315,6 +333,7 @@ export default function Home() {
                         name='telephone'
                         onChange={handleInputChange} 
                         value={values.telephone}
+                        required
                       />
                     </Form.Group> 
                   </Form.Row>
@@ -327,6 +346,7 @@ export default function Home() {
                         name='message'
                         onChange={handleInputChange} 
                         value={values.message}
+                        required
                       />
                     </Form.Group> 
                   </Form.Row>
@@ -336,11 +356,11 @@ export default function Home() {
                         <div className='check-terms'>
                         <Form.Check
                           type="checkbox"
-                          label="Aceptar Términos y condiciones"
+                          label="Acceptar Condicions"
                           value="true"
                           name="terms"
                           required
-                          onChange={(event) => this.handleInputChange(event)}
+                          onChange={(event) => handleInputChange(event)}
                         />
                         </div>
                       </Col>
@@ -352,7 +372,7 @@ export default function Home() {
                 </Form>
               ) : (
                 <div>
-                  <Alert variant='success'>Tu cuenta se ha creado correctamente. En menos de 48hs estaremos enviando el acceso a tu panel de control. Muchas gracias!</Alert>
+                  <Alert variant='success'>El teu compte s'ha creat correctament. En menys de 48hs estarem enviant l'accés al teu tauler de control. Moltes gràcies!</Alert>
                 </div>
               )}
               </div>

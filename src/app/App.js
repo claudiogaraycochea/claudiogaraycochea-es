@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from '../pages/home/Home';
 import Footer from '../components/footer/Footer';*/
 import Router from '../routes/Router';
+import '../store/firestore/Firestore';
 
 function App() {
 	return (
