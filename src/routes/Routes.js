@@ -1,10 +1,28 @@
 import Home from '../pages/home/Home';
 import HomeCat from '../pages/homeCat/HomeCat';
+import Terms from '../pages/terms/Terms';
+import Cookies from '../pages/cookies/Cookies';
 
 /* Layouts */
 import FullLayout from '../layouts/fullLayout/FullLayout';
 
 export const routes = [
+  {
+    id: 4,
+    exact: true,
+    path: '/terms',
+    Component: Terms,
+    Layout: FullLayout,
+    Access: 'Public',
+  },
+  {
+    id: 3,
+    exact: true,
+    path: '/cookies',
+    Component: Cookies,
+    Layout: FullLayout,
+    Access: 'Public',
+  },
   {
     id: 2,
     exact: true,

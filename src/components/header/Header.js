@@ -25,7 +25,7 @@ class Header extends Component {
     const scrollTop = 0;
     return (
       <header className={!(scrollTop>0) ? 'top': ''}>
-        <div className='nav-logo'/>
+        <Link to="/"><div className='nav-logo'/></Link>
         <div className="nav-language">
           <Link to="/">Castellano</Link>
           <Link to="/cat">Català</Link>
