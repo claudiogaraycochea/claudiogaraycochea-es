@@ -98,13 +98,11 @@ export default function Home() {
               </div>
               <div className={isVisible ? "slideUp enter s2" : "slideUp"}>
                 <Row className='center'>
-                  <Col>
-                    <Subtitle>
+                  <Col className='subtitle'>
                       A lo largo de mi carrera profesional he participado en proyectos para pequeñas 
-                      y grandes compañías. Destacando el desarrollo del sitio web GlogalLogic.com.
-                      Y programación de Apps para la companía Facebook, entre otros desarrollos para 
+                      y grandes compañías. Destacando el desarrollo del sitio web GlogalLogic.com<strike>.</strike> 
+                      y programación de Apps para la compañía Facebook, entre otros desarrollos para 
                       startups de Silicon Valley, Suiza y Barcelona.
-                    </Subtitle>
                   </Col>
                 </Row>
               </div>
@@ -137,7 +135,7 @@ export default function Home() {
                 <div className={`customer-content ${isVisible ? "slideUp enter" : "slideUp"}`}>
                   <H2>GlobalLogic</H2>
                   <p>
-                    Se trata de una companía con sede en California que 
+                    Se trata de una compañía con sede en California que 
                     desarrolla productos para Samsung, Google, Microsoft, 
                     entre otros. Actualmente vendida a Hitachi por una 
                     suma de €8.100 millones. Fuí convocado para desarrollar y 

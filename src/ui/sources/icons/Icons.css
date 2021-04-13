@@ -41,3 +41,15 @@
 .icon.check {
   background-image: url('../../../assets/images/icon-check.svg');
 }
+
+.icon.flag-spanish {
+  background-image: url('../../../assets/images/icon-flag-spainish.svg');
+  width: 32px;
+  height: 20px;
+}
+
+.icon.flag-catala {
+  background-image: url('../../../assets/images/icon-flag-catala.svg');
+  width: 32px;
+  height: 20px;
+}

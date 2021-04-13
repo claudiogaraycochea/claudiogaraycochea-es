@@ -27,8 +27,8 @@ class Header extends Component {
       <header className={!(scrollTop>0) ? 'top': ''}>
         <Link to="/"><div className='nav-logo'/></Link>
         <div className="nav-language">
-          <Link to="/">Castellano</Link>
-          <Link to="/cat">Català</Link>
+          <Link to="/"><i className="icon flag-spanish space"/></Link>
+          <Link to="/cat"><i className="icon flag-catala"/></Link>
         </div>
       </header>
     );    

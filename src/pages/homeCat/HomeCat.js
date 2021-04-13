@@ -92,7 +92,7 @@ export default function Home() {
               <div className={isVisible ? "slideUp enter" : "slideUp"}>
                 <Row className='center'>
                   <Col>
-                    <H1>Sobre la meva</H1>
+                    <H1>Sobre mi</H1>
                   </Col>
                 </Row>
               </div>
@@ -102,9 +102,9 @@ export default function Home() {
                     <Subtitle>
                       Al llarg de la meva carrera professional he participat en 
                       projectes per a petites i grans companyies. Destacant el 
-                      desenvolupament del lloc web GlogalLogic.com. I programació 
-                      d'Apps per a la companía Facebook, Entre d’altres tasques de desenvolupament  
-                      per startups de Silicon Valley, Suïssa i Barcelona.
+                      desenvolupament del lloc web GlobalLogic.com<strike>.</strike> i programació 
+                      d'Apps per a la companyia Facebook, entre d'altres tasques de 
+                      desenvolupament per a startups de Silicon Valley, Suïssa i Barcelona.
                     </Subtitle>
                   </Col>
                 </Row>
