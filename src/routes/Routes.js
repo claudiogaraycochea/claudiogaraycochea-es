@@ -3,13 +3,22 @@ import HomeCat from '../pages/homeCat/HomeCat';
 import Terms from '../pages/terms/Terms';
 import Privacy from '../pages/privacy/Privacy';
 import Cookies from '../pages/cookies/Cookies';
+import Legal from '../pages/legal/Legal';
 
 /* Layouts */
 import FullLayout from '../layouts/fullLayout/FullLayout';
 
 export const routes = [
   {
-    id: 4,
+    id: 6,
+    exact: true,
+    path: '/legal',
+    Component: Legal,
+    Layout: FullLayout,
+    Access: 'Public',
+  },
+  {
+    id: 5,
     exact: true,
     path: '/privacy',
     Component: Privacy,

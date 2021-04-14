@@ -56,7 +56,6 @@ class Privacy extends Component {
           <Row>
             <Col>
               <H3>POLÍTICA DE PRIVACIDAD Y DE PROTECCIÓN DE DATOS DE LA PÁGINA WEB GARAYCOCHEA</H3>
-              <p></p>
               <table className="table">
                 <tbody>
                   <tr>

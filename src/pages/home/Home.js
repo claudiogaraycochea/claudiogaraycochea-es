@@ -355,12 +355,13 @@ export default function Home() {
                         <div className='check-terms'>
                         <Form.Check
                           type="checkbox"
-                          label="Aceptar Términos y condiciones"
+                          label="Aceptar"
                           value="true"
                           name="terms"
                           required
                           onChange={(event) => handleInputChange(event)}
                         />
+                        <span className="space"> </span> <Link to="/terms"><span className="space">Términos y condiciones</span></Link> <span className="space">y</span> <Link to="/policy">Política de privacidad</Link>
                         </div>
                       </Col>
                     </Form.Group>
