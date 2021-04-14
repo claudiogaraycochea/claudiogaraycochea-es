@@ -189,12 +189,6 @@ class Privacy extends Component {
           </Row>
           <Row>
             <Col>
-              <H3></H3>
-              <p></p>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
               <H3>5. TIPOS DE DATOS TRATADOS</H3>
               <p>
                 Al visitar nuestro sitio web, es posible que recopilemos información sobre ti a través de sistemas que automáticamente registran tu dirección IP, el historial de búsqueda, el navegador que utilizas, el sistema operativo, las horas de acceso, el tiempo de conexión en la web, la ubicación, la red y la fuente del tráfico. En caso de utilizar un dispositivo móvil para visitar nuestro sitio web, es posible que también recopilemos otros datos tales como el tipo de dispositivo que usas y tus preferencias.
@@ -310,19 +304,100 @@ class Privacy extends Component {
               <div className="box-wrapper">
                 <div>Agencia Español de Protección de Datos</div>
                 <div>Dirección: Calle Jorge Juan 6, 28001, Madrid (España).</div>
+                <div>Correo: info@aepd.es.</div>
+                <div>Teléfono: 912663517.</div>
+                <div>Página web: https://www.aepd.es.</div>
               </div>
+              <p>
+                La consulta o reclamación que dirijas al Responsable del Tratamiento será atendida en un plazo máximo de 10 días hábiles contados a partir de la fecha de recepción de la misma. Cuando no fuera posible atender la consulta dentro de dicho término, se te informará debidamente, expresando los motivos de la demora y señalando la fecha en que se atenderá tu consulta, la cual en ningún caso podrá superar los 5 días hábiles siguientes al vencimiento del plazo inicial.
+              </p>
+              <p>
+                El ejercicio de estos derechos es gratuito, salvo que se formulen solicitudes manifiestamente infundadas o excesivas, en cuyo caso se te podrá requerir que asumas el coste de la tramitación de la solicitud.
+              </p>
             </Col>
           </Row>
           <Row>
             <Col>
-              <H3></H3>
-              <p></p>
+              <H3>11. MEDIDAS DE SEGURIDAD</H3>
+              <p>
+                Podemos asegurarte que adoptamos las medidas técnicas y organizativas necesarias para garantizar la seguridad y la privacidad de tus datos, evitando su alternación, tratamiento, pérdida o acceso no autorizado.
+              </p>
+              <p>
+                Entre otras, destacamos las siguientes medidas:
+              </p>
+              <ul>
+                <li>- Permitir el acceso a los datos únicamente al personal autorizado y exclusivamente durante el transcurso de su trabajo.</li>
+                <li>- Garantizar la confidencialidad, integridad y disponibilidad permanente de los sistemas y servicios de tratamiento.</li>
+                <li>- Restaurar la disponibilidad y el acceso a los datos personales de forma rápida, en caso de incidente físico o técnico.</li>
+                <li>- Verificar, evaluar y valorar, de forma regular, la eficacia de las medidas técnicas y organizativas implementadas para garantizar la seguridad del tratamiento.</li>
+                <li>- Seudonimizar y cifrar los datos en caso de que se trate de datos sensibles.</li>
+              </ul>
             </Col>
           </Row>
           <Row>
             <Col>
-              <H3></H3>
-              <p></p>
+              <H3>12. ALMACENAMIENTO DE LOS DATOS</H3>
+              <p>
+                Toda la información personal es recolectada y almacenada en la nube en un servidor titularidad de Google LLC. que se encuentra debidamente protegido mediante el cifrado activado por un certificado Secure Sockets Layer (SSL).
+              </p> 
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>13. DATOS PERSONALES DE MENORES DE 16 AÑOS</H3>
+              <p>
+              Comprendemos la importancia que tiene la protección de la privacidad de los niños y adolescentes, especialmente en el entorno de Internet. Este sitio web no está diseñado para los menores de 16 años, ni dirigido a éstos. Es nuestra política no recopilar ni mantener información de manera deliberada sobre cualquier persona menor de 16 años.
+              </p>
+              <p>
+              Para menores de 16 años, el uso de nuestros servicios solo es posible con el consentimiento legítimo de padre, madre o tutor legal.
+              </p>
+              <p>
+              En caso de que detectemos que estamos tratando información de algún menor de 16 años sin el consentimiento válido de su padre, madre o tutor legal, nos reservamos el derecho de eliminarla.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>14. COOKIES Y HERRAMIENTAS DE SEGUIMIENTO</H3>
+              <p>
+                Como muchos otros sitios de Internet, utilizamos cookies y otras herramientas de la red con el fin de recopilar información para nuestro propio uso con la finalidad de mejorar nuestro sitio web.
+              </p>
+              <p>
+                Una cookie es un pequeño archivo de datos que transferimos al disco duro de tu ordenador con el propósito de almacenar los registros. Puedes cambiar la opción en tu navegador para que no acepte más cookies o para que te avise antes de aceptar una cookie y así te permita rehusarla. No obstante, es posible que al inhabilitar las cookies, la página web no se muestre apropiadamente.
+              </p>
+              <p>
+                Las cookies te hacen más fácil la utilización del sitio web y a nosotros nos brindan la oportunidad de ofrecerte la opción de decidir si quieres que tus datos personales sean incluidos o no en el tratamiento de información que realizamos, y nos permiten seguir tu navegación a través de la web para poder adaptarla según tus intereses. También nos permiten recordar tu identidad y preferencias para que te podamos mostrar contenido apropiado para ti y tus intereses.
+              </p>
+              <p>
+                Aunque contratamos a terceras personas para que gestionen el uso de estas tecnologías, los datos personales que tratamos se utilizan sólo para ayudarnos a tener el control de nuestros propios materiales de mercadeo y nuestros propios sitios de Internet. Estas terceras personas están obligadas por contrato a mantener la información de manera confidencial, y tienen prohibido usarla para cualquier otro propósito.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>15. ENLACES A SITIOS DE TERCEROS</H3>
+              <p>
+              El sitio web www.claudiogaraycochea.es puede contener enlaces a sitios de terceros. En caso de que se te redirija a los sitios de terceros u otras plataformas, no asumimos ninguna responsabilidad directa por la política de privacidad de esos sitios de internet, ya que en ese momento deja de aplicarse nuestra política de privacidad. Por ello, os aconsejamos que reviséis la política de privacidad de cada sitio antes de revelar información alguna en ellos.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>16. PHISHING</H3>
+              <p>
+              No solicitamos ni lo haremos en ningún momento, información personal en un correo electrónico no seguro ni mediante comunicación telefónica. El robo de identidad y la práctica que actualmente se conoce como "phishing" son de gran preocupación para nosotros. Nuestra prioridad es custodiar la información para ayudarte a protegerte del robo de identidad.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>17. CAMBIOS EN LA POLÍTICA DE PRIVACIDAD</H3>
+              <p>
+                Esta política de privacidad puede ser actualizada regularmente a medida que nuestros servicios cambien. Te anunciaremos directamente por un medio eficiente y efectivo cualquier cambio sustancial en estas políticas de privacidad en relación a la identificación del Responsable del Tratamiento de tus datos personales y a la finalidad del tratamiento de los mismos que puedan afectar el contenido de la autorización en este documento.
+              </p>
+              <p>
+                Los demás cambios serán anunciados en el enlace de privacidad localizado en la parte inferior de nuestra página de inicio. El uso continuo por tu parte del sitio web, presumirá el conocimiento de cualquier nueva condición.
+              </p>
             </Col>
           </Row>
         </Section>

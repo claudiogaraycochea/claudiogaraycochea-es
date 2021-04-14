@@ -34,6 +34,17 @@ export const H3 = (props) => {
   );
 };
 
+export const H4 = (props) => {
+  const { children, className } = props;
+  return (
+    <h4
+      className={`h4 ${className}`}
+    >
+      {children}
+    </h4>
+  );
+};
+
 export const Subtitle = (props) => {
   const { children, className } = props;
   return (

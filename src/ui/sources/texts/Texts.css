@@ -12,6 +12,14 @@ h2 {
   font-size: 30px !important;
 }
 
+h3 {
+  font-size: 26px !important;
+}
+
+h4 {
+  font-size: 22px !important;
+}
+
 .subtitle {
   font-size: 24px;
   justify-content: center;
@@ -38,6 +46,10 @@ h2 {
   
   .h3 {
     font-size: 26px !important;
+  }
+  
+  .h4 {
+    font-size: 22px !important;
   }
   
   .subtitle {
