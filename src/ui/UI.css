@@ -195,6 +195,9 @@ a:hover {
 .mobile-right-left {
 	display: block;
 }
+.table td, .table th{
+	color: #ffffff;
+}
 
 .table .table-item {
 	border-bottom: 1px solid #adb5bd;
@@ -381,6 +384,11 @@ pre {
 	overflow: auto !important;
 	width: 500px;
 	border-radius: 10px;
+}
+
+.box-wrapper {
+	margin-left: 40px;
+	margin-bottom: 20px;
 }
 
 /* Medium devices (tablets, 768px and up) */

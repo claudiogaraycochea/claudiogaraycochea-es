@@ -5,7 +5,6 @@ import {
   H3,
 } from '../../ui/UI';
 import { Container, Row, Col } from 'react-bootstrap';
-import './Terms.css';
 
 class Terms extends Component {
 	constructor(props) {
