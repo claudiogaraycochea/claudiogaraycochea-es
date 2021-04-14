@@ -2,6 +2,7 @@ import React, { Component }from "react";
 import {
   Section,
   H2,
+  H3,
 } from '../../ui/UI';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Terms.css';
@@ -19,47 +20,200 @@ class Terms extends Component {
         <Section>
           <Row>
             <Col>
-              <H2>TERMS AND CONDITIONS</H2>
+              <H2>TÉRMINOS Y CONDICIONES DE USO DE LA PÁGINA WEB DE CLAUDIO GARAYCOCHEA DE ACUERDO CON LA NORMATIVA ESPAÑOLA</H2>
             </Col>
           </Row>
           <Row>
             <Col>
-              <p>Effective as of November 1, 2020, NextPlay, Inc., (“NextPlay”) and its subsidiaries, (collectively, the “NextPlay Group” or “we” or “us” or “our”) have updated terms that apply to the use of our Websites (as herein defined). For the purposes of these Terms of Use, the term, “Websites”, shall refer collectively to <a href="https://www.NextPlay.com.mx/">www.NextPlay.com</a> as well as the other websites that the NextPlay Group operates and that link to these Terms of Use.</p>
-              <p>We provide the Websites to you subject to these Terms of Use (“Terms”), which may be updated by us from time to time pursuant to Section 1 herein. By accessing and using the Websites, you accept and agree to be bound by these Terms, NextPlay’s Privacy Policy found <a href="https://www.NextPlay.com.mx/company/customers-partners/?cta=privacy#privacy-policy">here</a> and NextPlay’s Cookie Policy found <a href="https://www.NextPlay.com.mx/company/customers-partners/?cta=cookie#cookie-policy">here</a>. If you do not agree to these Terms, you should not access or use the Websites. In addition, when accessing the Websites you shall be subject to any posted guidelines or rules applicable to the Websites, which may be posted and modified from time to time. All such guidelines or rules are hereby incorporated by reference into these Terms. </p>
-              <p>These Terms do not apply to your access to and use of the products and services which we market for subscription on our Websites (our “Services”). The practices and policies, including how we protect, collect, and use electronic data, text, messages, communications or other materials submitted to and stored within the Services by You (“Service Data”) are detailed in and governed by our Master Subscription Agreement, available <a href="https://www.NextPlay.com.mx/company/customers-partners/?cta=msa#master-subscription-agreement">here</a>, or such other applicable agreement between you and any member of the NextPlay Group relating to your access to and use of such Services (“Service Agreement”).</p>
-              <p><strong>1. Changes to Terms. </strong>These Terms, or any part thereof, may be modified by us, including the addition or removal of terms at any time, and such modifications, additions or deletions will be effective immediately upon posting. Your use of the Websites after such posting shall be deemed to constitute acceptance by you of such modifications, additions or deletions.</p>
-              <p><strong>2. Changes to Websites. </strong>We may change or discontinue any aspect, service or feature of the Websites at any time, including, but not limited to, content, availability, and equipment needed for access or use.</p>
-              <p><strong>3. Registration. </strong>You may be given the opportunity to register via an online registration form or by participating in Interactive Areas, such as forums and other community features, to create a user account (“Your Account”) that may allow you to receive information from us and/or to participate in certain features on the Websites. We will use the information you provide in accordance with the Privacy Policy. By registering you represent and warrant that all information that you provide on the registration form is current, complete and accurate to the best of your knowledge. You agree to maintain and promptly update your registration information on the Websites so that it remains current, complete and accurate. You are responsible for obtaining and maintaining all connectivity, computer software, hardware and other equipment needed for access to and use of the Websites and all charges related to the same.</p>
-              <p><strong>4. User Content Guidelines. </strong>The following terms apply to content submitted by you:</p>
-              <p><strong>4.1 </strong>The Websites may contain comments sections, discussion forums, or other interactive features (“Interactive Areas”) in which you may post or upload user-generated content, comments, video, photos, messages, other materials or items (collectively, “User Content”). You are solely responsible for your use of any Interactive Areas and you use them at your own risk. Interactive Areas are available for individuals aged 13 years or older. By submitting User Content to an Interactive Area, you represent that you are 13 years of age or older and, if you are under the age of 18, you either are an emancipated minor or have obtained the legal consent of your parent or legal guardian to enter into these Terms, submit content, and participate on the Websites.</p>
-              <p><strong>4.2 </strong>By submitting any User Content or participating in an Interactive Area within or in connection with the Websites, you agree that you will not upload, post or otherwise transmit any User Content that (a) violates or infringes in any way upon the rights of others, including any statements which may defame, harass, stalk or threaten others; (b) you know to be false, misleading or inaccurate; (c) contains blatant expressions of bigotry, racism, racially or ethnically offensive content, hate speech, abusiveness, vulgarity or profanity; (d) contains or advocates pornography or sexually explicit content, pedophilia, incest, bestiality, or that is otherwise obscene or lewd; (e) violates any law or advocates or provides instruction on dangerous, illegal, or predatory acts, or discusses illegal activities with the intent to commit them; (f) advocates violent behavior; (g) poses a reasonable threat to personal or public safety; (h) contains violent images of killing or physical abuse that appear to have been captured solely, or principally, for exploitative, prurient, or gratuitous purposes; (i) is protected by copyright, trademark, trade secret, right of publicity or other proprietary right without the express permission of the owner of such copyright, trademark, trade secret, right of publicity or other proprietary right. The burden of determining that any User Content is not protected by copyright, trademark, trade secret, right of publicity or other proprietary right rests with you. You shall be solely liable for any damage resulting from any infringement of copyrights, trademarks, trade secrets, rights of publicity or other proprietary rights or any other harm resulting from such a submission. Any person determined by NextPlay, in its sole discretion, to have violated the intellectual property or other rights of others shall be barred from submitting or posting any further material on the Websites; (j) does not generally pertain to the designated topic or theme of any Interactive Area; (k) contains any unsolicited or unauthorized advertising or promotional materials with respect to products or services, “junk mail”, “spam”, “chain letters”, “pyramid schemes”, or any other form of solicitation; or (l) uses the name or likeness of an identifiable natural person without such person’s consent.</p>
-              <p><strong>4.3 </strong>You agree not to represent or suggest, directly or indirectly, the NextPlay Group’s endorsement of User Content.</p>
-              <p><strong>4.4 </strong>You agree not to upload, post or otherwise transmit any User Content, software or other materials which contain a virus or other harmful or disruptive component.</p>
-              <p><strong>4.5 </strong>You agree not to use any service, technology or automated system to artificially inflate the page views that your User Content receives. This includes pay-per-click services, web “robots” and any other current or future technologies. You also agree not to direct any third party to use these services, technologies or automated systems on your behalf.</p>
-              <p><strong>4.6 </strong>You agree not to use any technology, service or automated system to post more User Content than an individual could upload in a given period of time. You also agree not to direct any third party to use these services, technologies or automated systems on your behalf.</p>
-              <p><strong>4.7 </strong>Any conduct that we, in our sole discretion, believe restricts or inhibits anyone else from using or enjoying the Websites will not be permitted. We reserve the right in our sole discretion to remove or edit User Content submitted by you.</p>
-              <p><strong>4.8 </strong>We are not responsible for the accuracy or credibility of any User Content, and do not take any responsibility or assume any liability for any actions you may take as a result of reading User Content posted on the Websites. Through your use of Interactive Areas, you may be exposed to content that you may find offensive, objectionable, harmful, inaccurate or deceptive. There may also be risks of dealing with underage persons, people acting under false pretense, international trade issues and foreign nationals. By using Interactive Areas, you assume all associated risks.</p>
-              <p><strong>4.9 </strong>We have the right, but not the obligation, to monitor User Content posted or uploaded to the Websites to determine compliance with these Terms and any operating rules established by us and to satisfy any law, regulation or authorized government request. Although we have no obligation to monitor, screen, edit or remove any of the User Content posted or uploaded to the Websites, we reserve the right, and have absolute discretion, to screen, edit, refuse to post or remove without notice any User Content posted or uploaded to the Websites at any time and for any reason, and you are solely responsible for creating backup copies of and replacing any User Content posted to the Websites at your sole cost and expense. The decision by NextPlay to monitor and/or modify User Content does not constitute nor shall it be deemed to constitute any responsibility or liability in any manner on our part in connection with or arising from your use of Interactive Areas on the Websites.</p>
-              <p><strong>4.10 </strong>By submitting User Content to the Websites, you automatically grant us a royalty-free, perpetual, irrevocable, non-exclusive, worldwide right and license to use, publish, reproduce, modify, adapt, edit, translate, create derivative works from, incorporate into other works, distribute, sublicense (through multiple tiers) and otherwise exploit such User Content (in whole or in part) in any form, media or technology now known or hereafter developed, without payment to you or to any third parties. Additionally, to the fullest extent permitted under applicable law, you waive your moral rights in the User Content and agree not to assert such rights against us. You represent and warrant to us that you have the full legal right, power and authority to grant to us the license provided for herein, that you own or control the complete exhibition and other rights to the User Content you submitted for the purposes contemplated in this license and that neither the User Content nor the exercise of the rights granted herein shall violate these Terms, or infringe upon any rights, including the right of privacy or right of publicity, or constitute a libel or slander against, or violate any common law or any other right of, or cause injury to, any person or entity. You further grant to us the right, but not the obligation, to pursue at law any person or entity that violates your or our rights in the User Content by a breach of these Terms.</p>
-              <p><strong>5. User Conduct Guidelines. </strong>The following terms apply to your conduct when accessing or using the Websites: (a) you agree not to interfere with or disrupt the Websites or the servers or networks connected to the Websites, or disobey any requirements, procedures, policies or regulations of networks connected to the Websites; (b) you agree not to reproduce, duplicate, copy, sell, resell or exploit for any commercial purpose, any portion of the Websites, use of the Websites, or access to the Websites; (c) you agree not to engage in any activity that would constitute a criminal offense or give rise to a civil liability; (d) you agree not to impersonate any person or entity, including, but not limited to, the NextPlay Group or any NextPlay Group employee, or falsely state or otherwise misrepresent your affiliation with any person or entity; and (e) you agree not to interfere with any other user’s right to privacy, including by harvesting or collecting personally-identifiable information about users of the Websites or posting private information about a third party.</p>
-              <p><strong>6. Intellectual Property Rights. </strong>All text, graphics, photographs, trademarks, logos, icons, user interfaces, sounds, music, videos, artwork, software and computer code (collectively, “Content”), including but not limited to the “look and feel”, layout, design, structure, color scheme, selection, combination and arrangement of the Content present on the Websites is owned by or licensed to us. Such Content is protected by copyright, trademark, trade dress and various other intellectual property and unfair competition laws.</p>
-              <p>Except with our express written permission or as permitted by applicable laws, you may not copy, distribute, reproduce, mirror, frame, publicly display, publicly perform, translate, create derivative works of, re-publish or transmit the Websites or Content (in whole or in part) in any way or through any medium for distribution, publication or any commercial purpose.</p>
-              <p>You may display, copy and download Content from the Websites solely for your personal and non&shy;-commercial use provided that: (a) you do not remove any copyright or proprietary notice from the Content; (b) such Content will not be copied or posted on any networked computer or published in any medium; and (c) no modifications are made to such Content.</p>
-              <p><strong>7. Disclaimer of Warranty; Limitation of Liability. </strong></p>
-              <p>(A) YOU EXPRESSLY AGREE THAT USE OF THE WEBSITES IS AT YOUR SOLE RISK. THE NextPlay GROUP, ITS OTHER AFFILIATES NOR ANY OF THEIR RESPECTIVE EMPLOYEES, AGENTS, THIRD PARTY CONTENT PROVIDERS, THIRD-PARTY SERVICE PROVIDERS OR LICENSORS DO NOT WARRANT THAT USE OF THE WEBSITES WILL BE UNINTERRUPTED OR ERROR FREE; NOR DO THEY MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE WEBSITES, NOR AS TO THE ACCURACY, RELIABILITY OR CONTENT OF ANY INFORMATION, SERVICE, OR MERCHANDISE PROVIDED THROUGH THE WEBSITES.</p>
-              <p>(B) THE WEBSITES ARE PROVIDED ON AN “AS IS” BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF TITLE OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OTHER THAN THOSE WARRANTIES WHICH ARE IMPLIED BY AND INCAPABLE OF EXCLUSION, RESTRICTION OR MODIFICATION UNDER THE LAWS APPLICABLE TO THESE TERMS.</p>
-              <p>(C) TO THE FULLEST EXTENT PERMISSIBLE BY APPLICABLE LAW, IN NO EVENT SHALL THE NextPlay GROUP, OR ITS FUTURE PARENT OR AFFILIATED COMPANIES, BE LIABLE TO YOU FOR ANY PERSONAL INJURY, PROPERTY DAMAGE, LOST PROFITS, COST OF SUBSTITUTE GOODS OR SERVICES, LOSS OF DATA, LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER AND/OR DEVICE OR TECHNOLOGY FAILURE OR MALFUNCTION OR FOR ANY FORM OF DIRECT OR INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES BASED ON ANY CAUSES OF ACTION ARISING OUT OF USE OF THE WEBSITES OR ANY ALLEGED FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, OR DELAY IN SERVICE, OPERATION, OR TRANSMISSION OF THE WEBSITES, OR ANY ALLEGED COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR DESTRUCTION OF PROPERTY, AND/OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF OR POSTING OF ANY RECORD, CONTENT, OR TECHNOLOGY, PERTAINING TO OR ON THE WEBSITES. YOU AGREE THAT THIS LIMITATION OF LIABILITY APPLIES WHETHER SUCH ALLEGATIONS ARE FOR BREACH OF CONTRACT, TORTIOUS BEHAVIOR, NEGLIGENCE, OR FALL UNDER ANY OTHER CAUSE OF ACTION, REGARDLESS OF THE BASIS UPON WHICH LIABILITY IS CLAIMED AND EVEN IF THE NextPlay GROUP OR FUTURE PARENT OR AFFILIATED COMPANIES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, YOU ALSO SPECIFICALLY ACKNOWLEDGE THAT THE NextPlay GROUP OR FUTURE PARENT OR AFFILIATED COMPANIES ARE NOT LIABLE FOR ANY ACTUAL OR ALLEGED DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF OTHER USERS OF THE WEBSITES OR ANY OTHER THIRD PARTIES.</p>
-              <p>IF APPLICABLE LAW DOES NOT ALLOW ALL OR ANY PART OF THE ABOVE LIMITATION OF LIABILITY TO APPLY TO YOU, THE LIMITATIONS WILL APPLY TO YOU ONLY TO THE EXTENT PERMITTED BY APPLICABLE LAW.</p>
-              <p>(D) We disclaim any and all liability of any kind for any unauthorized access to or use of your personally identifiable information. By accessing the Websites, you acknowledge and agree to our disclaimer of any such liability. If you do not agree, you should not access or use the Websites.</p>
-              <p><strong>8. Indemnification. </strong>You agree to defend, indemnify and hold harmless the NextPlay Group, its affiliates and their respective directors, officers, employees and agents from and against all claims and expenses, including attorneys’ fees, arising out of the use of the Websites by you. The NextPlay Group reserves the right to take over the exclusive defense of any claim for which we are entitled to indemnification under this section. In such event, you shall provide NextPlay with such cooperation as is reasonably requested by the NextPlay Group.</p>
-              <p><strong>9. Termination. </strong>We may terminate or suspend these Terms at any time without notice to you. Without limiting the foregoing, we shall have the right to immediately terminate your access to the Websites in the event of any conduct by you which we, in our sole discretion, consider to be unacceptable, or in the event of any breach by you of these Terms. The provisions of Sections 2, and 5-12 shall survive termination of these Terms.</p>
-              <p><strong>10. Governing Law. </strong>The content, data, video, and all other material and features on the Websites are presented for the purpose of providing entertainment, news and/or information and/or promoting programs, films, music, games, and other products and/or services that are or may become available in the United States, its territories, possessions, and protectorates. </p>
-              <p>Any and all disputes, claims and controversies arising out of or in connection with your access to, and/or use of the Websites, and/or the provision of content, services, and/or technology on or through the Websites shall be governed by and construed exclusively in accordance with the laws and decisions of the State of California applicable to contracts made, entered into and performed entirely therein, without giving effect to its conflict of laws provisions. </p>
-              <p>Please report any violations of these Terms to the <a href="mailto:legal@NextPlay.link">NextPlay Legal Department</a>.</p>
-              <p><strong>11. Copyrights and Copyright Agent. </strong>We respect others’ intellectual property rights, and expect our users and customers to do the same. If you believe that your work has been copied on the Websites in a way that constitutes copyright infringement, please follow the procedures outlined in <a href="/company/trademark-property/?cta=dmca#DMCA">NextPlay’s Copyright Infringement Notice &amp; Takedown Policy</a>. We reserve the right to terminate access to the Websites for users or customers who post material that infringes the intellectual property rights of others. </p>
-              <p><strong>12. Miscellaneous. </strong>These Terms and any operating rules for the Websites established by us constitute the entire agreement of the parties with respect to the subject matter hereof, and supersede all previous written or oral agreements between the parties with respect to such subject matter. The provisions of these Terms are for the benefit of the NextPlay Group, its affiliates and its third party content providers and licensors and each shall have the right to assert and enforce such provisions directly or on its own behalf. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default. If any part of these Terms is found by a court of competent jurisdiction to be invalid or unenforceable, it will be replaced with language reflecting the original purpose in a valid and enforceable manner. The enforceable sections of these Terms will remain binding upon the parties. The section headings used herein are for convenience only and shall not be given any legal import.</p>
-              <p>Non-English translations of this Policy are provided for convenience only. In the event of any ambiguity or conflict between translations, the English version is authoritative and controls.</p>
-              <p>These Terms were last updated on November 1, 2020.</p>
+              <H3>SUMARIO.</H3>
+              <p>El presente documento se refiere a la adecuación de la política de cookies de
+              la página web de CLAUDIO JOSÉ GARAYCOCHEA (en adelante PÁGINA WEB
+              GARAYCOCHEA) a la normativa vigente española y europea, con particular
+              atención a la Ley de servicios de la sociedad de la información y de comercio
+              electrónico (en delante LSSI), Ley que Modifica el Texto Refundido de la Ley
+              General para la Defensa de Consumidores y Usuarios (en adelante TRLGCU),
+              Ley sobre las Condiciones Generales de la Contratación (en adelante LCGC),
+              Ley de Competencia Desleal (en adelante LCD) y otras normas
+              complementarias.</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>TÉRMINOS Y CONDICIONES DE LA PÁGINA WEB GARAYCOCHEA</H3>
+              <p>ÍNDICE:</p>
+              <ul>
+                <li>1) CONDICIONES GENERALES DE USO.</li>
+                <li>2) IDENTIFICACIÓN.</li>
+                <li>3) COMUNICACIONES.</li>
+                <li>4) DESCRIPCIÓN DEL SERVICIO OFRECIDO EN LA WEB.</li>
+                <li>5) CONDICIONES DE ACCESO Y USO.</li>
+                <li>6) LIMITACIÓN DE RESPONSABILIDAD.</li>
+                <li>7) DERECHOS DE PROPIEDAD INTELECTUAL E INDUSTRIAL.</li>
+                <li>8) LEGISLACIÓN APLICABLE.</li>
+                <li>9) MODIFICIÓN DE LOS TÉRMINOS Y CONDICIONES.</li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>1. CONDICIONES GENERALES DE USO</H3>
+              <p>A continuación indicamos los términos y condiciones de uso que regulan el uso de la página web www.claudiogaraycochea.es (en adelante, “la página web”), de la cual es titular el Sr. Claudio José Garaycochea (en adelante, “el titular de la web”).</p>
+              <p>La navegación por la página web atribuye la condición de usuario y conlleva la aceptación plena y sin reservas de todas y cada una de las condiciones publicadas en estos términos y condiciones.</p>
+              <p>Todas las cláusulas contenidas en los términos y condiciones se aplican a todas las relaciones comerciales y/o promocionales que sean realizadas entre los usuarios establecidos en España y el titular de la web.</p>
+              <p>Por ello, te recomendamos que leas atentamente las condiciones de uso en caso de que desees acceder y hacer uso de la información y de los servicios ofrecidos en esta página web.</p>
+              <p>El acceso a la página web es responsabilidad del usuario y éste se compromete a usar los contenidos de forma diligente, correcta, lícita y de buena fe, de conformidad con las leyes, el orden público y los usos del tráfico, eximiéndose al titular de la web de cualquier uso ilegítimo que pueda llevar a cabo el usuario.</p>
+              <p>Cualquier utilización distinta a la autorizado está expresamente prohibida, pudiendo el titular de la web denegar o retirar el acceso y su uso en cualquier momento.</p>
+              <p>El titular de la web se reserva el derecho a modificar unilateralmente los términos y condiciones de uso, sin que dicho cambio pueda afectar a las relaciones comerciales que fueron establecidas con anterioridad a éste.</p>
+              <p>Los términos y condiciones de uso válidos y aplicables en España son los correspondientes a la versión disponible en español. Las versiones disponibles en otros idiomas cumplen sólo funciones meramente informativas.</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>2. IDENTIFICACIÓN</H3>
+              <p>El titular de la web Garaycochea, en cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informa de sus datos identificativos:</p>
+              <ul>
+                <li>- Nombre: Claudio José Garaycochea.</li>
+                <li>- Domicilio fiscal: Calle Gomis 34, Bajos, 08023, Barcelona (España).</li>
+                <li>- Correo electrónico: computadoraweb@gmail.com.</li>
+                <li>- Teléfono: (+34) 691 704 887.</li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>3. COMUNICACIONES</H3>
+              <p>Para poder comunicarte con nosotros e informarnos de cualquier incidencia, reclamación o ejercicio de tus derechos, ponemos a tu disposición los medios de contacto que detallamos a continuación:</p>
+              <ul>
+                <li>- Correo electrónico: computadoraweb@gmail.com.</li>
+                <li>- Teléfono: (+34) 691 704 887 (de Lunes a Viernes, de 9.00 a 18.00).</li>
+              </ul>
+              <p>Todas las notificaciones y comunicaciones entre los usuarios y el titular de la web se considerarán eficaces, a todos los efectos, cuando se realicen a través de cualquier medio de los detallados anteriormente.</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>4. DESCRIPCIÓN DEL SERVICIO OFRECIDO EN LA WEB</H3>
+              <p>
+                La página web www.claudiogaraycochea.es tiene como objetivo principal que el usuario conozca y se informe sobre cuáles son las prestaciones de servicios que ofrece Claudio José Garaycochea como autónomo radicado en Barcelona (España) y especializado en el sector del desarrollo de software y el diseño de interfaces en aplicaciones y páginas web.
+              </p>
+              <p>
+                Los servicios ofrecidos en la web se encuadran en distintos ámbitos del desarrollo web: desarrollo de aplicaciones y páginas web, venta corporativa, desarrollo de software preprogramado, creación de frameworks JS, diseño UX en el campo de la neurociencia, liderazgo técnico en proyectos, implementación de metodologías de trabajo, desarrollo de UI Libraries, optimización general de proyectos, entre otros.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>5. CONDICIONES DE ACCESO Y USO</H3>
+              <p>
+                La página web y sus servicios son de acceso libre y gratuito. No obstante, el titular de la web puede condicionar la utilización de algunos de los servicios ofrecidos en su web a la previa cumplimentación de un formulario.
+              </p>
+              <p>
+                El usuario garantiza la autenticidad y actualidad de todos aquellos datos que comunique al titular de la página web y será el único responsable de las manifestaciones falsas o inexactas que realice.
+              </p>
+              <p>
+                El usuario se compromete expresamente a hacer un uso adecuado de los contenidos y servicios del titular de la web y a no emplearlos para, entre otros:
+              </p>
+              <div>
+                <p>
+                  a. Descompilarlapáginawebporcualquiermediomanualy/oautomático con la finalidad de un uso que no sea personal.
+                </p>
+                <p>
+                  b. Incluir la página web en un índice de búsqueda.
+                </p>
+                <p>
+                  c. Difundir contenidos delictivos, violentos, pornográficos, sexistas, racistas, xenófobos, ofensivos, de apología del terrorismo o, en general, contrarios a la ley o al orden público.
+                </p>
+                <p>
+                  d. Introducir en la red virus informáticos o realizar actuaciones susceptibles de alterar, estropear, interrumpir o generar errores y/o daños en los documentos electrónicos, datos o sistemas físicos y lógicos del titular de la web o de terceras personas.
+                </p>
+                <p>
+                  e. Usarrobotsy/ocualquiertipodesoftwareenlapáginawebdestinados a evitar o limitar el acceso a ésta.
+                </p>
+                <p>
+                  f. Obstaculizar el acceso de otros usuarios al sitio web y a sus servicios mediante el consumo masivo de los recursos informáticos a través de los cuales el titular de la web presta sus servicios.
+                </p>
+                <p>
+                  g. Intentar acceder a las cuentas de correo electrónico de otros usuarios o a áreas restringidas de los sistemas informáticos de la página web o de terceros y, en su caso, extraer información.
+                </p>
+                <p>
+                  h. Vulnerar los derechos de propiedad intelectual o industrial, así como violar la confidencialidad de la información del titular de la web o de terceros.
+                </p>
+                <p>
+                  i. Suplantar la identidad de cualquier otro usuario.
+                </p>
+              </div>
+              <p>
+                El titular de la web se reserva el derecho de modificar, suspender, cancelar y/o restringir el acceso total y/o parcial a su página web, en cualquier momento, sin previo aviso, ni responsabilidad alguna frente a los usuarios.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>6. LIMITACIÓN DE RESPONSABILIDAD</H3>
+              <p>
+                El titular de la página web no se responsabiliza de ningún daño y/o perjuicio producido y/o de los beneficios dejados de obtener por el usuario o cualquier tercero que se vea perjudicado a consecuencia de los datos y/o contenidos que puedan emitir directa o indirectamente los propios usuarios, por cualquier motivo y en cualquier momento y forma, a través de esta página web.
+              </p>
+              <p>
+                El titular de la página web no garantiza que ésta vaya a funcionar sin retrasos o interrupciones por circunstancias fortuitas o de fuerza mayor, por lo que el titular no se responsabiliza por cualquier daño y/o perjuicio producido y/o de los beneficios dejados de obtener por el usuario o cualquier otro tercero que se vea perjudicado a consecuencia de los mismos.
+              </p>
+              <p>
+                Tampoco se hace responsable el titular de la falta de veracidad, exactitud, exhaustividad y/o actualidad de los contenidos, así como de la existencia de vicios y defectos de toda clase de los contenidos transmitidos, difundidos, almacenados, puestos a disposición, a los que se haya accedido a través de la página web o de los servicios que se ofrecen.
+              </p>
+              <p>
+                El titular de la web no será responsable de los fallos que pudieran producirse en las comunicaciones, incluido el borrado, transmisión incompleta o retrasos en el envío, no comprometiéndose tampoco a que la red de transmisión esté operativa en todo momento.
+              </p>
+              <p>
+                Tampoco responderá el titular en caso de que un tercero contravenga las medidas de seguridad establecidas en la web y circule y/o transmita virus informáticos que pudieran producir alteraciones en los sistemas informáticos, en los documentos electrónicos o en los datos de los usuarios.
+              </p>
+              <p>
+                El titular, como prestador de servicios que es, no controla el uso de los servicios que el usuario realiza. En este sentido, el titular no se hace responsable del uso y de los contenidos que, en contravención a las leyes o a los presentes términos y condiciones de uso, el usuario pueda hacer del mismo.
+              </p>
+              <p>
+                En el supuesto de que titular tuviera conocimiento efectivo de la existencia de contenidos que pudieran infringir la legalidad vigente o los presentes términos y condiciones de uso o de la utilización de la web y de sus contenidos con fines fraudulentos, ilícitos y/o no autorizados, el titular suspenderá por sí mismo total o parcialmente la prestación de los servicios, sin necesidad de autorización previa del usuario, mediante la eliminación de los contenidos infractores o cualquier otra medida que considere necesaria para evitar la continuidad en la comisión del ilícito o de la infracción detectada, renunciando el usuario a ejercitar toda reclamación o derecho, de cualquier índole.
+              </p>
+              <p>
+                Sin perjuicio de lo anteriormente expuesto, el titular se reserva la facultad de poner en conocimiento de las autoridades administrativas o judiciales aquellos hechos que pudieran ser constitutivos de una actividad ilícita, sin necesidad de comunicarlo previamente al usuario.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>7. DERECHOS DE PROPIEDAD INTELECTUAL E INDUSTRIAL</H3>
+              <p>
+                El titular de la web, Claudio José Garaycochea, es el titular de los derechos de propiedad industrial e intelectual de los contenidos de la web y dispone de cualquier otro título legal, derecho, licencia o autorización que permite utilizar los materiales incluidos en la web, en particular, las fotografías, textos, iconos, software, traducciones, gráficos, interfaz, entre otros.
+              </p>
+              <p>
+                De este modo, está prohibido, por cualquier medio y/o forma, su utilización, explotación, copia, reproducción, distribución y puesta a disposición de, así como su eliminación, lesión, alteración y/o modificación, registro y/o solicitud de registro, bien parcial o total, temporal o definitiva de los mismos y/o de cualquier otro similar presente y/o futura, sin la autorización expresa y por escrito del titular.
+              </p>
+              <p>
+                La página web www.claudiogaraycochea.es, incluyendo a título enunciativo pero no limitativo su programación, edición, compilación y demás elementos necesarios para su funcionamiento (los diseños, logotipos, texto y/o gráficos) son propiedad de Claudio José Garaycochea y, en su defecto, dispone de licencia o autorización expresa por parte de los autores.
+              </p>
+              <p>
+                Las mismas restricciones son aplicables al contenido incluido en las publicidades patrocinadas y a las informaciones presentadas a través de la página web o de los anunciantes, que pueden, llegado el caso, estar protegidos por el derecho de autor, el derecho de marcas, el derecho de patentes o cualquier otro derecho reconocido por la legislación vigente.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>8. LEGISLACIÓN APLICABLE</H3>
+              <p>
+                Si alguna cláusula de los presentes términos y condiciones deviene inválida o inaplicable, la validez del clausulado restante no se verá afectada. La cláusula no válida será sustituida por la disposición legal pertinente. A los presentes términos y condiciones de uso se aplicará el derecho español. La lengua utilizada será el castellano.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <H3>9. MODIFICIÓN DE LOS TÉRMINOS Y CONDICIONES</H3>
+              <p>
+                El titular de la web puede, en cualquier momento y sin previo aviso, revisar los términos y condiciones de uso aquí enunciados, por medio de la actualización de este anuncio. Los usuarios se verán vinculado por las nuevas actualizaciones vigentes a partir del momento en que las mismas sean accesibles. Por ello, los usuarios estarán obligados a las actualizaciones vigentes desde el momento en que haga uso de la página web.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <p>
+                Abril 2021
+              </p>
             </Col>
           </Row>
         </Section>

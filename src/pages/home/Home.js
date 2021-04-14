@@ -101,7 +101,7 @@ export default function Home() {
                   <Col className='subtitle'>
                       A lo largo de mi carrera profesional he participado en proyectos para pequeñas 
                       y grandes compañías. Destacando el desarrollo del sitio web GlogalLogic.com<strike>.</strike> 
-                      y programación de Apps para la compañía Facebook, entre otros desarrollos para 
+                       y programación de Apps para la compañía Facebook, entre otros desarrollos para 
                       startups de Silicon Valley, Suiza y Barcelona.
                   </Col>
                 </Row>
